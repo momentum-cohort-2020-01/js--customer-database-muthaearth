@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "open sans", sans-serif;
+}
+
+.header {
+    color: white;
+    background-color: #0D3F75;
+    border-bottom: 2px solid #93DDEF;
+    padding: 1em;
+}
+
+/* main {
+    width: 95%;
+    padding: 1em;
+} */
+
+/* set up the 3x3 picture grid */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex: 1 1 33%; */
+}
+
+.cell {
+    line-height: 1.5em;
+    margin-bottom: 3em;
+    flex: 1 1 33%;
+}
+
+.cell img {
+    width: 98%;
+}
+
+.name {
+    font: bold 1.1em "Oswald";
+}
+
+/*let's revisit*/
+/* .footer-third {
+    color: white;
+    font: 2.5em "Oswald";
+    text-align: center;
+    height: 275px;
+    /* padding: 25% 0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} */
+
+
+/* customer tags */
+.tag {
+    display: inline;
+    font-size: .8em;
+    font-weight: 500;
+    background-color: #93DDEF;
+    padding: 2px 3px;
+    /* margin: 2px 2px; */
+    border-radius: 10px;
+    white-space: nowrap;
+}
+
